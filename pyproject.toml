@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["daitasu <ifctp.dai.monara@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.65.1"
+uvicorn = "^0.13.4"
+line-bot-sdk = "^1.19.0"
+aiolinebot = "^0.4.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+python-dotenv = "^0.17.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
